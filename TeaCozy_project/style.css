@@ -1,0 +1,168 @@
+/* Universal Styles ------------------*/
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity:0.9;
+  margin: 0;
+}
+
+a {
+  color: seashell;
+}
+
+/* header --------------------------------------------------------------------*/
+header {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  position:fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+.logo {
+  display: inline-block;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  display: inline-block;
+  align-items: center;
+}
+
+nav span {
+  padding: 20px 10px;
+  align-items: center;
+}
+
+span {
+  display: inline-block;
+
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+
+/* ----- content -------------------------------------------------*/
+.content {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 68px;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+/*------------Section 1 --------------------------------------------*/
+.section_1 {
+  display: flex;
+  flex-direction: column;
+  width:1200px;
+  height: 700px;
+  background-image: url("stuff/img-mission-background.jpg");
+  justify-content: center;
+}
+
+.section_1 span {
+  display: inline-block;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+/*------------Section 2 --------------------------------------------*/
+.section_2 {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-top: 30px;
+}
+
+.section_2 .tea {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea_pics {
+  margin: 0 15px;
+}
+
+.tea h4 {
+  margin-top: 10px;
+}
+
+/*------------Section 3 --------------------------------------------*/
+.section_3 {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 600px;
+  margin-top: 30px;
+  background-image: url("stuff/img-locations-background.jpg");
+
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+
+}
+
+.inside_box {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+
+}
+
+.inside_box span {
+  margin: 20px;
+}
+
+
+.box_1, .box_2 {
+  margin-right: 40px;
+}
+
+footer {
+  display:flex;
+  flex-direction: column;
+
+}
+
+.centered {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+.copywrite {
+  margin-left:20px;
+}
